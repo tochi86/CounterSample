@@ -30,9 +30,22 @@
 		253922292D26CB73004A3C3A /* BuildTools */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BuildTools; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		25A72DF52D2701800011CD61 /* Exceptions for "CounterSample" folder in "CounterSample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 253921F42D26C818004A3C3A /* CounterSample */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		253921F72D26C818004A3C3A /* CounterSample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				25A72DF52D2701800011CD61 /* Exceptions for "CounterSample" folder in "CounterSample" target */,
+			);
 			path = CounterSample;
 			sourceTree = "<group>";
 		};
@@ -462,6 +475,7 @@
 				DEVELOPMENT_TEAM = W36L2BGW7G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CounterSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -491,6 +505,7 @@
 				DEVELOPMENT_TEAM = W36L2BGW7G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CounterSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
