@@ -26,15 +26,18 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("\(viewModel.count)")
+                .accessibilityIdentifier("count_text")
 
             HStack {
                 Button("Increment") {
                     viewModel.incrementButtonTapped()
                 }
+                .accessibilityIdentifier("increment_button")
 
                 Button("Decrement") {
                     viewModel.decrementButtonTapped()
                 }
+                .accessibilityIdentifier("decrement_button")
             }
         }
         .padding()
